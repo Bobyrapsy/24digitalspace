@@ -1418,13 +1418,13 @@ video {
 }
 
 .image{
-  background-image: url(../susie/imgs/black-girl-down.png);
+  background-image: url(../imgs/black-girl-down.png);
   padding-bottom: 20rem;
 }
 
 @media (min-width: 640px){
   .image{
-    background-image: url(../susie/imgs/girl.png);
+    background-image: url(../imgs/girl.png);
   }
 }
 
