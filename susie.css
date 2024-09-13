@@ -1456,7 +1456,7 @@ video {
 }
 
 .logo{
-  background: url(/susie/imgs/logo.jpg);
+  background: url(logo.jpg);
   width: 100px;
   height: 100px;
   border-radius: 50%;
