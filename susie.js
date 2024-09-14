@@ -94,6 +94,21 @@ $('.test-popup-link').magnificPopup({
 
 
 
+  window.addEventListener('scroll', function() {
+    var navbar = document.querySelector('.nav-container');
+    var scrollPosition = window.scrollY;
+    
+    if (scrollPosition > 200) { // adjust this value to your needs
+      navbar.classList.add('navbar_fixed');
+    } else {
+      navbar.classList.remove('navbar_fixed');
+    }
+  });
+  
+
+
+
+
 
 
 
